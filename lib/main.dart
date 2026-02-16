@@ -46,6 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.pink,
         //Bonus: Custom title
         title: const Text("Flutter Lab - Dmytro"),
+        leading: Icon(Icons.arrow_back),
       ),
       body: Center(
         child: Column(
